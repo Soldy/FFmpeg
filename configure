@@ -1798,6 +1798,8 @@ HWACCEL_LIBRARY_LIST="
     mmal
     omx
     opencl
+    rpi4_8
+    rpi4_10
 "
 
 DOCUMENT_LIST="
