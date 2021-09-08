@@ -1951,7 +1951,12 @@ typedef struct AVCodecContext {
      * used as reference pictures).
      */
     int extra_hw_frames;
-
+    /**
+     * Opaque pointer for use by replacement get_buffer2 code
+     *
+     * @author jc (08/02/2016)
+     */
+    void *get_buffer_context;
     /**
      * The percentage of damaged samples to discard a frame.
      *

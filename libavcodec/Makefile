@@ -25,6 +25,11 @@ HEADERS = ac3_parser.h                                                  \
           videotoolbox.h                                                \
           vorbis_parser.h                                               \
           xvmc.h                                                        \
+          rpi_hevc.h                                                    \
+          rpi_qpu.h                                                     \
+          rpi_mailbox.h                                                 \
+          rpi_zc.h                                                      \
+          rpi_argon.h                                                   \
 
 OBJS = ac3_parser.o                                                     \
        adts_parser.o                                                    \
@@ -56,6 +61,13 @@ OBJS = ac3_parser.o                                                     \
        utils.o                                                          \
        vorbis_parser.o                                                  \
        xiph.o                                                           \
+       rpi_hevc.o                                                       \
+       rpi_qpu.o                                                        \
+       rpi_mailbox.o                                                    \
+       rpi_zc.o                                                         \
+       rpi_argon.o                                                      \
+
+
 
 # subsystems
 OBJS-$(CONFIG_AANDCTTABLES)            += aandcttab.o

@@ -1899,6 +1899,8 @@ HWACCEL_LIBRARY_LIST="
     omx
     opencl
     vulkan
+    rpi4_8
+    rpi4_10
 "
 
 DOCUMENT_LIST="
